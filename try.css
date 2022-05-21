@@ -1,0 +1,7 @@
+.menu-v li a:hover {
+    background-color:#284a8a;
+  }
+.dropdown:hover>.dropdown-menu {
+display: block;
+z-index: 0;
+}

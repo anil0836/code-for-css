@@ -1,0 +1,355 @@
+.main {
+  background-color: #333;
+}
+
+.orange {
+  background-color: #fab909;
+}
+
+.orange1 {
+  color: #fab909;
+}
+
+.main-ul {
+  margin-left: 14rem;
+}
+
+.hello {
+  z-index: 1;
+  position: absolute;
+}
+
+.menu-v li a:hover {
+  background-color: #284a8a;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  z-index: 0;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+/*.menu-v .side:hover>ul {
+    margin-top: 0px !important; 
+    left:14.9em !important;
+    width: 500% !important;
+    height: 500% !important;
+    top: 2.9em;
+    z-index: 2;
+
+}*/
+
+.carousel-item {
+  height: 600px;
+  /* min-height: 350px;*/
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.yellow {
+  color: #fab909;
+}
+
+.btn-warning:hover {
+  color: white;
+}
+
+.welcome {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.car {
+  width: 450px;
+  margin-top: 14rem;
+}
+
+.slider-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /*z-index: 1;*/
+}
+
+.arrow {
+  margin-left: 14rem;
+  margin-top: 1.7rem;
+}
+
+.bg-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/img4.jpg);
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-sec-overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.about {
+  margin-top: 1rem;
+  padding-left: 13rem;
+}
+
+.about-us-img {
+
+  background: #131d33;
+  z-index: -1;
+  height: 500px;
+}
+
+.image1 {
+  margin-top: 5rem;
+  width: 450px;
+  margin-left: -6rem;
+}
+
+.our {
+  margin-left: 9rem;
+}
+
+.icon {
+  width: 45px;
+}
+
+.bg-img1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../image/img5.jpg);
+  /*margin-top: 3rem;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(19, 29, 51, 0.85);
+  height: 300px;
+  position: absolute;
+  width: 100%;
+}
+
+.bg-img2 {
+  width: 100%;
+  height: 370px;
+  background-image: url(../image/car3.jpg);
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 370px;
+}
+
+.card1 {
+  border-radius: 100%;
+  border: 2px solid #fab909;
+}
+
+.card-slide {
+  margin-left: 26rem;
+  width: 600px;
+  height: 240px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #fab909;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.comment {
+  position: absolute;
+  border-right: 110px solid #fab909;
+  border-bottom: 110px solid transparent;
+  top: 0;
+  right: 0;
+  height: 110px;
+}
+
+.cmt {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-img3 {
+  width: 100%;
+  height: 630px;
+  background-image: url(../image/car4.jpg);
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-3 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 630px;
+}
+
+/*.bg-orange-overlay{
+	background-color: #fab909;
+	position: absolute;
+
+	width: 100%;
+    height: 800px;
+}
+.bg-green-overlay{
+    background-color: rgba(18, 188, 0, 0.96);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%
+}*/
+.textarea {
+  width: 536px;
+  height: 70px;
+  background: #d29a02;
+  border: 1px solid #d29a02
+}
+
+.textarea1 {
+  width: 250px;
+  height: 44px;
+  background: #d29a02;
+  border: 1px solid #d29a02;
+}
+
+.appointment-form::before {
+  background-color: #fab909;
+  content: "";
+  height: 630px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 780px;
+  /*z-index: -;*/
+}
+
+::placeholder {
+  color: black;
+  padding-left: 10px;
+  /*opacity: 1;  Firefox */
+}
+
+.appointment-form button:hover {
+  background-color: white;
+  color: black;
+}
+
+.air {
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.border-bottom1 {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
+
+.exmple {
+  width: 90px;
+  height: 90px;
+  background-color: orange;
+  position: relative;
+}
+
+/*.air{
+    position: absolute;
+  }*/
+.our {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  margin-right: 4em;
+}
+
+.our1 {
+  padding-bottom: 7em;
+}
+
+/*.border-color:hover{
+ border-top: 1px solid #fab909;
+}*/
+.footer {
+  background-color: #131d33;
+  padding-bottom: 5em;
+}
+
+.container .footer-links ul li a:hover {
+  color: #fab909;
+}
+
+.footer-bottom {
+  background: #10192e;
+  padding: 40px;
+}
+
+.motoverlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 300px;
+  position: absolute;
+  width: 100%;
+}
+
+.icon-mot {
+  margin-left: 45%;
+  margin-top: 4em;
+}
+
+.repair-img {
+  background-image: url(../image/img5.jpg);
+  width: 100%;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.repair-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 170px;
+  position: absolute;
+  width: 100%;
+}
+
+.repair1-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(../image/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.repair1-overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 500px;
+}
