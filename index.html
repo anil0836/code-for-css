@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Clays</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </head>
+
+   <body>
+      <div class="container-fluid border-bottom main p-2">
+         <div class="container">
+            <div class="row">
+               <div class="col-9">
+                  <ul class="nav">
+                     <li class="nav-item">
+                        <i class="fa fa-car orange1"></i>
+                        <span class="text-white">Free Car Collection</span>
+                     </li>
+                     <li class="nav-item mx-5">
+                        <i class="fa fa-phone orange1"></i>
+                        <span class="text-white">01908 61 61 58</span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-3">
+                  <span class="orange p-2 font-weight-bolder">Make An Appoinment</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="sticky-top bg-light">
+         <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+               <img src="image/logo.png" class="logo">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav main-ul menu-v">
+                     <li class="nav-item mx-2">
+                        <a class="nav-link text-dark h6 font-weight-bolder" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item mx-2 side dropdown">
+                        <a style="color: aqua;" class="nav-link text-dark h6 font-weight-bolder  dropdown-toggle"
+                           href="#" id="navbardrop" data-toggle="dropdown">Servicing</a>
+                        <div class="dropdown-menu" style="margin-top:7px">
+                           <a class="dropdown-item" href="#">
+                              <div class="row">
+                                 <div class="col-2">
+                                    <p class="h6 color">BATH & CARE</p>
+                                    <ul class="multi-column-dropdown list">
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                       <li><a href="#" class="text-decoration-none">Diapering</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                     </li>
+                     <li class="nav-item mx-2">
+                        <a class="nav-link text-dark h6 font-weight-bolder" href="mot.html">MOT</a>
+                     </li>
+                     <li class="nav-item mx-2 side">
+                        <a class="nav-link text-dark h6 font-weight-bolder" href="repair.html">Repaires</a>
+                     </li>
+                     <li class="nav-item mx-2">
+                        <a class="nav-link text-dark h6 font-weight-bolder" href="bodyshop.html">Bodyshop</a>
+                     </li>
+                     <li class="nav-item mx-2 side">
+                        <a class="nav-link text-dark h6 font-weight-bolder" href="#">More
+                           <i class='fas fa-angle-down'></i>
+                        </a>
+                     </li>
+                     <li class="nav-item mx-2">
+                        <button class="btn btn-dark btn-sm rounded-0 mt-2" type="button">
+                           <i class="fa fa-search"></i>
+                        </button>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <div class="fluid-container">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+               <!-- Slide One - Set the background image for this slide in the line below -->
+               <div class="carousel-item active" style="background-image: url(./image/slide1.jpg)">
+                  <div class="slider-overlay d-none d-md-block">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-7 welcome">
+                              <p class="h1 font-weight-bold"><span class="text-white">WELCOME TO OUR</span>
+                                 <span class="yellow">MOT <br>SERVICE</span>
+                              </p>
+                              <p class="text-white">Fast, Efficient MOT Testing for cars and small commercial<br>
+                                 Taking the worry out of MOT, And its only £30! If your vehicle is over<br> three years
+                                 old it will require an annual MOT test to ensure that<br> it is roadworthy. And
+                                 sometimes this can feel like one extra annual <br>pain that you have to endure! But it
+                                 is necessary, not just because<br> of the law, but to helping keep you safe on the
+                                 road.</p>
+                              <button class="btn btn-lg border border-warning rounded-0 text-white">Read More</button>
+                              <button class="btn btn-lg btn-warning rounded-0 mx-4">Contact Us</button>
+                           </div>
+                           <div class="col-5">
+                              <img src="image/car.png" class="car">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Slide Two - Set the background image for this slide in the line below -->
+               <div class="carousel-item" style="background-image: url(image/slide2.jpg)">
+                  <div class="slider-overlay d-none d-md-block">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-7 welcome">
+                              <p class="h1 font-weight-bold">
+                                 <span class="text-white">CLAYS
+                                    <span class="yellow">VEHICLE </span> REPAIRS
+                                 </span>
+                              </p>
+                              <p class="text-white">Don't just use any old garage!</p>
+                              <p class="text-white">Come to the company where the service is great, the people are great
+                                 and you and your vehicle will leave feeling great!</p>
+                              <button class="btn btn-lg border border-warning rounded-0 text-white">Contact Us</button>
+                              <button class="btn btn-lg btn-warning rounded-0 mx-4">Read More</button>
+                           </div>
+                           <div class="col-5">
+                              <img src="image/car.png" class="car">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Slide Three - Set the background image for this slide in the line below -->
+               <div class="carousel-item" style="background-image: url(./image/slide1.jpg)">
+                  <div class="slider-overlay d-none d-md-block">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-7 welcome">
+                              <p class="h1 font-weight-bold">
+                                 <span class="text-white">CLAYS
+                                    <span class="yellow">VEHICLE </span> SERVICING
+                                 </span>
+                              </p>
+                              <p class="text-white">Great Prices on Servicing for cars and vans - any make, any model.
+                              </p>
+                              <p class="text-white">Clay's mission is to keep you and your car on the road, and nothing
+                                 is more inportant than regular, thorough servicing. Clays Vehicle Repairs will service
+                                 your vehicle in keeping with the manufacturers recommended service intervals, checking
+                                 that all vital components are properly maintained, fluids topped up, and everything is
+                                 running as expected.We will also offer recommendations where any part needs replacing
+                                 or if we feel that a part may need replacing before the next service.</p>
+                              <button class="btn btn-lg border border-warning rounded-0 text-white">Contact Us</button>
+                              <button class="btn btn-lg btn-warning rounded-0 mx-4">Read More</button>
+                           </div>
+                           <div class="col-5">
+                              <img src="image/car.png" class="car">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-4">
+         <div class="row">
+            <div class="col-8">
+               <p class="h2 font-weight-bold">We Only Provide Quality Car Servicing
+               </p>
+               <p class="h5 text-muted mt-3">We are ahead of all in the service. We can support you. So stay tuned with
+                  us</p>
+            </div>
+            <div class="col-4">
+               <div class="arrow">
+                  <a href="#"><i class="fa fa-2x fa-angle-left orange text-white px-3 py-2"></i></a>
+                  <a href="#"><i class="fa fa-2x fa-angle-right orange text-white px-3 py-2 ml-3"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="row mt-5">
+            <div class="col-4">
+               <img src="image/img1.png" class="">
+               <span class="h4 font-weight-bold ml-3">MOTs - Cheap And Quick</span>
+               <p class="text-muted mt-3 h6 font-weight-normal">Fast, thorough, MOT service at a great price</p>
+            </div>
+            <div class="col-4">
+               <img src="image/img2.png" class="">
+               <span class="h4 font-weight-bold ml-3">Repairs</span>
+               <p class="text-muted mt-3 h6 font-weight-normal">We can diagnose and repair any faults with any car</p>
+            </div>
+            <div class="col-4">
+               <img src="image/img3.png" class="">
+               <span class="h4 font-weight-bold ml-3">Bodyshop</span>
+               <p class="text-muted mt-3 h6 font-weight-normal">Full bodywork repair and respray and custom sprays</p>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container bg-img">
+         <div class="about-sec-overlay">
+            <div class="row">
+               <div class="col-7 about">
+                  <p class="h1"><span class="orange1">About</span> Our Company</p>
+                  <p class="font-weight-bold h5">Looking after you and your vehicle</p>
+                  <p class="text-muted">Clay's customers are really important to us, as are their cars and vans.</p>
+                  <p class="text-muted">So, you can be confident that we will always treat with<br> you fairly, honestly
+                     and with your best interests in mind.</p>
+                  <p class="text-muted">Our primary aim is to keep you and your car on the road, running well and safe.
+                  </p>
+                  <span class="text-muted">You are always welcome to call and chat over problems with your car and we
+                     are happy<br> to look at any problem, however small.</span>
+                  <p class="font-weight-bold h4">Call 01908 61 61 58</p>
+                  <div class="row mt-5">
+                     <div class="col-4">
+                        <p class="h2 font-weight-bold">250</p>
+                        <p class="h5 font-weight-bold">Project Completed</p>
+                     </div>
+                     <div class="col-4">
+                        <p class="h2 font-weight-bold">250</p>
+                        <p class="h5 font-weight-bold">Happy Client's</p>
+                     </div>
+                     <div class="col-4">
+                        <p class="h2 font-weight-bold">240</p>
+                        <p class="h5 font-weight-bold">Our Employee's</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-5">
+                  <div class="about-us-img">
+                     <img src="image/car.png" class="image1">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container bg-light">
+         <div class="row mt-5">
+            <div class="col-4">
+               <img src="image/car2.png" width="350px">
+            </div>
+            <div class="col-8">
+               <p class="h1 font-weight-bold our">
+                  <span class="orange1">Our</span> Service
+               </p>
+               <p class="text-muted font-weight-normal">Clay's mission is to keep you and your car on the road, and
+                  nothing is<br> more inportant than regular, thorough servicing.
+               </p>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/while.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 Mechanical Repairs
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/glass.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 MOTs
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/carpet.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 Repairs Body
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-4">
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/vacuum.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 Cambelts
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/repair.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 Body Shop
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card pr-2 border-0">
+                     <div class="row mt-4">
+                        <div class="col-3">
+                           <img src="image/wheel.png" class="icon ml-4">
+                        </div>
+                        <div class="col-9">
+                           <a href="#" class="text-decoration-none text-dark">
+                              <p class="font-weight-bold h5">
+                                 Air Conditioning
+                              </p>
+                           </a>
+                           <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that can
+                              look at any problem, repair or replace any..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container bg-img1">
+         <div class="overlay">
+            <div class="container">
+               <div class="row mt-5">
+                  <div class="col-7">
+                     <p class="text-white h4 mt-5">IF NEED ANY HELP! CONTACT US.</p>
+                     <p class="text-white mt-3">Use the contact form to send us an email or come round to see us at</p>
+                     <button class="btn btn-lg btn-warning text-white rounded-0 mt-3">
+                        <span class="h6 font-weight-bold">CONTACT US</span>
+                     </button>
+                  </div>
+                  <div class="col-5">
+                     <img src="image/car.png" width="350px" class="ml-5">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container">
+         <p class="h1 font-weight-bold text-center mt-5">
+            <span class="orange1">Our</span>
+            Customers Say...
+         </p>
+         <p class="text-muted text-center mt-4">Valuable Feedback Form Our Customer</p>
+      </div>
+      <div class="fluid-container bg-img2">
+         <div class="overlay2">
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+               <div class="controls-top">
+                  <a class="btn-floating dot" href="#multi-item-example" data-slide="prev">
+                  </a>
+                  <a class="btn-floating dot" href="#multi-item-example" data-slide="next">
+                  </a>
+                  <a class="btn-floating dot" href="#multi-item-example" data-slide="next">
+                  </a>
+               </div>
+               <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                     <div class="col-10">
+                        <div class="card mb-2 card-slide">
+                           <div class="row mt-5">
+                              <div class="comment">
+                                 <span class="cmt">
+                                    <i class='fas fa-lg fa-quote-right'></i>
+                                 </span>
+                              </div>
+                              <div class="col-3">
+                                 <img src="image/card1.jpg" class="icon card1 ml-5">
+                              </div>
+                              <div class="col-9">
+                                 <p class="font-weight-bold h5">
+                                    Harry
+                                 </p>
+                                 <p class="text-muted">Ceo, Themeearth</p>
+                                 <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that
+                                    can look at any problem, repair or replace any..</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-10">
+                        <div class="card mb-2 card-slide">
+                           <div class="row mt-5">
+                              <div class="col-3">
+                                 <img src="image/card1.jpg" class="icon card1 ml-5">
+                              </div>
+                              <div class="col-9">
+                                 <a href="#" class="text-decoration-none text-dark">
+                                    <p class="font-weight-bold h5">
+                                       George
+                                    </p>
+                                    <p class="text-muted">Ceo, Themeearth</p>
+                                 </a>
+                                 <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that
+                                    can look at any problem, repair or replace any..</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-10">
+                        <div class="card mb-2 card-slide">
+                           <div class="row mt-5">
+                              <div class="col-3">
+                                 <img src="image/card1.jpg" class="icon card1 ml-5">
+                              </div>
+                              <div class="col-9">
+                                 <a href="#" class="text-decoration-none text-dark">
+                                    <p class="font-weight-bold h5">
+                                       Oliver
+                                    </p>
+                                    <p class="text-muted">Ceo, Themeearth</p>
+                                 </a>
+                                 <p class="text-muted mt-2">Clay Vehicle Repairs has fully<br> qualified mechanics that
+                                    can look at any problem, repair or replace any..</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container">
+         <p class="h1 font-weight-bold text-center mt-5"><span class="orange1">Make</span> An Appointment</p>
+      </div>
+      <div class="fluid-container bg-img3">
+         <div class="overlay-3">
+            <div class="container">
+               <div class="row">
+                  <div class="col-6 mt-5">
+                     <p class="h1"><span class="orange1">Ask</span>
+                        A Question
+                     </p>
+                     <p class="text-muted">Use the contact form to send us an email or come round to see us<br> at</p>
+                     <div class="row mt-5">
+                        <div class="col-2">
+                           <img src="image/question.png" class="orange p-3" width="60px;">
+                        </div>
+                        <div class="col-10">
+                           <p class="font-weight-bold text-dark h5">Can I Help 24/7</p>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer
+                              hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi
+                              suscipit.</p>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col-2">
+                           <img src="image/question.png" class="orange p-3" width="60px;">
+                        </div>
+                        <div class="col-10">
+                           <p class="font-weight-bold text-dark h5">Can I Refund Payment</p>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer
+                              hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi
+                              suscipit.</p>
+                        </div>
+                     </div>
+                     <div class="row mt-4">
+                        <div class="col-2">
+                           <img src="image/question.png" class="orange p-3" width="60px;">
+                        </div>
+                        <div class="col-10">
+                           <p class="font-weight-bold text-dark h5">How Many Year's Exprience</p>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer
+                              hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi
+                              suscipit.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="appointment-form ml-4">
+                        <form>
+                           <div class="row">
+                              <div class="col-12 mt-5">
+                                 <p class="h4 font-weight-bold text-dark">GET AN APPOINTMENT</p>
+                                 <p class="text-dark h5">Please fill the form, our team will connect you shortly.</p>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field">
+                                    <input type="text" name="name" placeholder="Your Name" class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field">
+                                    <input type="text" name="name" placeholder="Your Email" class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-4">
+                                    <input type="text" name="name" placeholder="Your Phone" class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-4">
+                                    <select name="cars" id="cars" class="textarea1">
+                                       <option value="volvo">Select vehicle type
+                                       </option>
+                                       <option value="saab">Saab</option>
+                                       <option value="mercedes">Mercedes</option>
+                                       <option value="audi">Audi</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-5">
+                                    <input type="text" name="name" placeholder="Enter your vehicle model"
+                                       class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-5">
+                                    <input type="text" name="name" placeholder="Appointment time" class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-4">
+                                    <input type="text" name="name" placeholder="Appointment time" class="textarea1">
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <div class="field mt-4">
+                                    <!-- <input type="text" name="name" placeholder="Select vehicle type" class="textarea1"> -->
+                                    <select name="cars" id="cars" class="textarea1">
+                                       <option value="volvo">Select vehicle type
+                                       </option>
+                                       <option value="saab">Saab</option>
+                                       <option value="mercedes">Mercedes</option>
+                                       <option value="audi">Audi</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="field mt-4">
+                                    <input type="text" name="name" placeholder="Message" class="textarea">
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <button class="btn btn-lg btn-dark btn-submit rounded-0 mt-4 pl-4 pr-4"
+                                    type="submit">Submit Now</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container">
+         <p class="text-center h1 font-weight-bold mt-4"><span class="orange1">Our</span>
+            Pricing Package
+         </p>
+         <p class="text-muted text-center mt-3">Select The Package According To Your Needs</p>
+      </div>
+      <div class="container mt-5">
+         <div class="row">
+            <div class="col-4 shadow">
+               <div class="rounded-circle exmple">
+                  <img src="image/air1.png" class="air">
+               </div>
+               <div class="price-heading text-center mt-5">
+                  <p class="orange1 h4 font-weight-bold">Quick Service</p>
+                  <p class="h3">£24.99</p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get oil filter</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>Call 01908 61 61 58</span>
+                  </p>
+                  <button class="btn btn-warning font-weight-bold rounded-0 mt-4 pl-4 pr-4 text-white h6"
+                     type="submit">ORDER NOW</button>
+               </div>
+            </div>
+            <div class="col-4 shadow">
+               <div class="rounded-circle exmple">
+                  <img src="image/air2.png" class="air">
+               </div>
+               <div class="price-heading text-center mt-5">
+                  <p class="orange1 h4 font-weight-bold">Quick Service</p>
+                  <p class="h3">£24.99</p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get oil filter</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>Call 01908 61 61 58</span>
+                  </p>
+                  <button class="btn btn-warning font-weight-bold rounded-0 mt-4 pl-4 pr-4 text-white h6"
+                     type="submit">ORDER NOW</button>
+               </div>
+            </div>
+            <div class="col-4 shadow">
+               <div class="rounded-circle exmple">
+                  <img src="image/air2.png" class="air">
+               </div>
+               <div class="price-heading text-center mt-5">
+                  <p class="orange1 h4 font-weight-bold">Quick Service</p>
+                  <p class="h3">£24.99</p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get oil filter</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-times text-danger"></i>
+                     <span>You get a full oil change</span>
+                  </p>
+                  <p class="border-bottom1">
+                     <i class="fa fa-check text-warning"></i>
+                     <span>Call 01908 61 61 58</span>
+                  </p>
+                  <div class="btn2 mb-4">
+                     <button class="btn btn-warning font-weight-bold rounded-0 pl-4 pr-4 text-white h6 mt-4"
+                        type="submit">ORDER NOW</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fluid-container bg-light our1">
+         <div class="container">
+            <p class="h1 font-weight-bold mt-5 text-center our">Our <span class="orange1">Expertise</span>
+            </p>
+            <div class="row">
+               <div class="col-3">
+                  <div class="border">
+                     <a href="#">
+                        <img src="image/honda.jpg" class="border border-light mt-4 ml-4" width="200px;" height="220px;">
+                     </a>
+                     <p class="font-weight-bold">HONDA</p>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="border">
+                     <a href="#">
+                        <img src="image/audi.png" class="border border-light mt-4 ml-4" width="200px;" height="220px;">
+                     </a>
+                     <p class="font-weight-bold">HONDA</p>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="border">
+                     <a href="#">
+                        <img src="image/jaguar.jpg" class="border border-light mt-4 ml-4" width="200px;"
+                           height="220px;">
+                     </a>
+                     <p class="font-weight-bold">HONDA</p>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="border">
+                     <a href="#">
+                        <img src="image/honda.jpg" class="border border-light mt-4 ml-4" width="200px;" height="220px;">
+                     </a>
+                     <p class="font-weight-bold">HONDA</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="fluid-container footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-4 mt-5">
+                  <img src="image/footer-logo.png" width="170px;">
+                  <div class="text-white mt-4">
+                     <p>Free Car Collection - When you book in advance for a service, MOT or for anything else required
+                        to your vehicle, ask about our Free Car Collection and return service.</p>
+                     <p>It is simple. We will come and pick your car up and drop it off when it is done.</p>
+                  </div>
+                  <div class="footer-icon">
+                     <a href="#" class="text-white"><i
+                           class="fa fa-lg fa-facebook border px-2 py-2 border-warning"></i></a>
+                     <a href="#" class="text-white ml-2"><i
+                           class="fa fa-lg fa-twitter border px-2 py-2 border-warning"></i></a>
+                     <a href="#" class="text-white ml-2"><i
+                           class="fa  fa-lg fa-pinterest border px-2 py-2 border-warning"></i></a>
+                     <a href="#" class="text-white ml-2"><i
+                           class="fa  fa-lg fa-google-plus border px-2 py-2 border-warning"></i></a>
+                     <a href="#" class="text-white ml-2"><i
+                           class="fa fa-lg fa-vimeo border px-2 py-2 border-warning"></i></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="footer-links mt-5">
+                     <ul class="">
+                        <li>
+                           <span class="font-weight-bold text-white h4">Quick Links</span>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 2em;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none
+                        ">MECHANICAL REPAIRS</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="footer-links mt-5">
+                     <ul class="mt-4">
+                        <li>
+                           <p class="font-weight-bold text-white h4">Support Links</p>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 2em;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none h6">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                        <li style="list-style-type: none; margin-top: 10px;">
+                           <i class='fas fa-angle-double-right text-warning'></i>
+                           <a href="#" class="text-white text-decoration-none">MECHANICAL REPAIRS</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <p class="font-weight-bold text-white h4 mt-5 ml-4">Flicker Photo</p>
+                  <div class="row p-4">
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px;" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                     <div class="col-4">
+                        <img src="image/img6.jpg" class="p-2" width="110px" height="90px">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p class="text-white text-center">© Copyright 2019
+            <span class="orange1"> Clays Vehicle Repairs,</span>
+            Designed by:
+            <span class="orange1"> Clays</span>
+         </p>
+      </div>
+   </body>
+
+</html>
